@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/bio"
+            android:icon="@drawable/bio1"
+            android:title="@string/my_biography"
+            android:iconTint="@color/colorPrimary"/>
+        <item
+            android:id="@+id/question"
+            android:icon="@drawable/question"
+            android:title="@string/question_answer"
+            android:iconTint="@color/colorPrimary"/>
+        <item
+            android:id="@+id/notification"
+            android:icon="@drawable/notification"
+            android:title="@string/notifications"
+            android:iconTint="@color/colorPrimary"/>
+        <item
+            android:id="@+id/news"
+            android:icon="@drawable/newspaper"
+            android:title="@string/my_news"
+            android:iconTint="@color/colorPrimary"/>
+        <item
+            android:id="@+id/maps"
+            android:icon="@drawable/map"
+            android:title="@string/maps"
+            android:iconTint="@color/colorPrimary"/>
+        <item
+            android:id="@+id/gallery"
+            android:icon="@drawable/gallery"
+            android:title="@string/Gallery"
+            android:iconTint="@color/colorPrimary"/>
+        <item
+            android:id="@+id/social_media"
+            android:icon="@drawable/social_media"
+            android:title="@string/social_media"
+            android:iconTint="@color/colorPrimary"/>
+    </group>
+
+
+</menu>

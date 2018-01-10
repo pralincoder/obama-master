@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#03A9F4</color>
+    <color name="colorPrimaryDark">#0288D1</color>
+    <color name="colorAccent">#03A9F4</color>
+    <color name="color_white">#ffff</color>
+    <color name="grey">#9E9E9E</color>
+    <color name="dark_grey">#424242</color>
+    <color name="color_blacl">#000000</color>
+    <color name="color_gray">#EEEEEE</color>
+    <color name="colo_notify">#F5F5F5</color>
+    <color name="color_how_to">#bababa</color>
+    <color name="color_of_agenda">#ececec</color>
+    <color name="color_red">#B71C1C</color>
+    <color name="color_of_news">#ececec</color>
+    <color name="color_image">#313030</color>
+    <color name="colorr_ask">#585858</color>
+    <color name="color_sky_blue">#2196F3</color>
+    <color name="color_connect_with_me">#00c3aa</color>
+    <color name="color_news_announcement">	#006fc3</color>
+    <color name="color_text_audio_video">#00aac3</color>
+</resources>

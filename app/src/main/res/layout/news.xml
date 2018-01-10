@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:clipToPadding="false"
+    android:orientation="vertical"
+    android:background="@color/color_white">
+
+
+    <android.support.v7.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        card_view:cardUseCompatPadding="true"
+        android:background="@color/color_of_news">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/gagan2"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="6"
+                android:orientation="vertical"
+                android:layout_margin="8dp"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/news"
+                    android:id="@+id/news_title"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="26th Nov 2017"
+                    android:id="@+id/newsdate"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <Button
+                        android:layout_width="0dp"
+                        android:layout_height="36dp"
+                        android:layout_weight=".4"
+                        android:layout_marginRight="5dp"
+                        android:background="@drawable/background_rectangle"
+                        android:text="Read"
+                        android:paddingLeft="2dp"
+                        android:textAllCaps="false"
+                        android:drawableLeft="@drawable/ic_newspaper"
+                        android:drawablePadding="4dp"
+                        />
+
+
+                    <Button
+                        android:layout_width="0dp"
+                        android:layout_height="36dp"
+                        android:background="@drawable/background_rectangle"
+                        android:text="Listen Now"
+                        android:layout_weight=".6"
+                        android:paddingLeft="2dp"
+                        android:textAllCaps="false"
+                        android:minLines="1"
+                        android:drawablePadding="4dp"
+                        android:drawableLeft="@drawable/ic_listen"
+                        />
+
+
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>
